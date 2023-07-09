@@ -1,18 +1,17 @@
-# Salesforce DX Project: Next Steps
+## CarHub
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+![Screenshot (347)](https://github.com/kjcatherine/CarHub/assets/100381663/5dd5f40a-ea65-4732-b0f0-0f6679f75bf9)
 
-## How Do You Plan to Deploy Your Changes?
+Loads car details and allow user flexibilty to search with different parameters, and also allows to navigate to record page. 
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+### See links
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- [Custom Page Template Design](force-app/main/default/aura/pageTemplate_2_7_3/pageTemplate_2_7_3.cmp)
+- [carFilter Component](force-app/main/default/lwc/carFilter)
+- [carTile Component](force-app/main/default/lwc/carTile)
+- [carTileList Component](force-app/main/default/lwc/carTileList)
+- [carCard Component](force-app/main/default/lwc/carCard)
+- [placeholder Component](force-app/main/default/lwc/placeholder)
+- [similarCars Component](force-app/main/default/lwc/similarCars)
+- [Controller](force-app/main/default/classes/CarController.cls)
+- [LMS](force-app/main/default/messageChannels)
