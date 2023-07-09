@@ -1,10 +1,9 @@
 ## CarHub
+Loads car details and allow user flexibilty to search with different parameters, and also allows to navigate to record page. 
 
 ![Screenshot (347)](https://github.com/kjcatherine/CarHub/assets/100381663/5dd5f40a-ea65-4732-b0f0-0f6679f75bf9)
 
-Loads car details and allow user flexibilty to search with different parameters, and also allows to navigate to record page. 
-
-### See links
+### Components, Controllers and Message channels
 
 - [Custom Page Template Design](force-app/main/default/aura/pageTemplate_2_7_3/pageTemplate_2_7_3.cmp)
 - [carFilter Component](force-app/main/default/lwc/carFilter)
